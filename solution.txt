@@ -1,0 +1,11 @@
+git clone https://github.com/Luz4r/epg1_git.git
+git checkout master
+git branch hw-s18660
+git checkout rebase-me
+git rebase hw-s18660
+git checkout hw-s18660
+git merge rebase-me
+git merge origin/merge-me
+notepad README.md
+git add README.md
+git commit -m "merge merge-me to hw-s18660"
